@@ -1,0 +1,14 @@
+sudo apt update   (to uopdate sudo package)
+sudo apt install python3-pip
+sudo apt install python3.12-venv  (install venv package)
+python3 -m venv spotify_venv (create virtual environment  name is redfin_venv) 
+source redfin_venv/bin/activate  (activate venv)
+pip install pandas  (to install pandas)
+pip install boto3  (to install boto3)
+pip install awscli
+pip install apache-airflow(to install airflow)
+airflow version  (check version)
+
+aws configure
+airflow standalone ( to sstart airflow webserver)
+localhost:8080 ( to access airflow webserver cli) 
